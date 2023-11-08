@@ -4,7 +4,7 @@ apt upgrade -y
 apt install -y python3 python3-pip python3-venv
 cd /home/ubuntu/
 TOKEN="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"
-git clone https://$TOKEN@https://github.com/seymamece/Aws_Capstone_Project.git
+git clone https://$TOKEN@github.com/seymamece/Aws_Capstone_Project.git
 cd /home/ubuntu/Aws_Capstone_Project
 python3 -m venv venv
 source venv/bin/activate
